@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+ul, li {
+  list-style: none;
+}
+.wrapper {
+  display: flex;
+}
+.printData {
+  flex-basis: 50%;
+  flex-grow: 0;
+  height: 100vh;
+  overflow: auto;
+}
+.printData li {
+  display: flex;
+}
+.printData li div {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.chartWrapper {
+  flex-basis: 50%;
+  flex-grow: 0;
+}
+.Show a {
+  text-decoration: none;
+  color: #000;
+}
+.Show a:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.Show .holder {
+  padding: 15px;
+  display: flex;
+}
+.Show .holder div {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.Show img {
+  float: left;
+  margin-right: 20px;
+}
+.Show .container {
+  overflow: hidden;
+}
